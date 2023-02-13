@@ -5,7 +5,7 @@ import DetailsForm from './DetailsForm';
 const Details = () => {
   const [showForm, setShowForm] = useState(false);
   const ShowForm = () => {
-    setShowForm((prevShowForm)=>!prevShowForm);
+    setShowForm((prevShowForm) => !prevShowForm);
   };
 
   return (

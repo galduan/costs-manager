@@ -5,7 +5,7 @@ import CostForm from './CostForm';
 const Cost = () => {
   const [showForm, setShowForm] = useState(false);
   const ShowForm = () => {
-    setShowForm((prevShowForm)=>!prevShowForm);
+    setShowForm((prevShowForm) => !prevShowForm);
   };
 
   return (
