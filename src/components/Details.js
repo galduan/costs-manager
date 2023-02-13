@@ -1,3 +1,5 @@
+// Team Manager: gal duan – 207951930
+// Partner: Tomer Gat – 314754607
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import DetailsForm from './DetailsForm';

@@ -1,4 +1,7 @@
 
+// Team Manager: gal duan – 207951930
+// Partner: Tomer Gat – 314754607
+
 export const getStorageValue = (key, defaultValue) => {
   // getting the stored data
   const saved = localStorage.getItem(key);

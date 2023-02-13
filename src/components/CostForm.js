@@ -1,3 +1,5 @@
+// Team Manager: gal duan – 207951930
+// Partner: Tomer Gat – 314754607
 import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Input from '@mui/material/Input';
@@ -29,7 +31,9 @@ const CostForm = () => {
   // on Click "ADD" button - save new object in localStorage and present appropriate message
   const addCost = async () => {
     if (name && description && category && sum) {
+      // getting the year and month from date
       const [month, , year] = date.split('/')
+      // store data
       setStorageValue('data', [...data, { name, category, description, sum, month, year }]).then((res) => {
         setData((prevData) => [
           ...prevData,
